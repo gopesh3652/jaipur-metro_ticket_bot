@@ -14,4 +14,4 @@ Bot to book tickrt to travel in Jaipur metro using whatsapp.
 -help
 
 ####Project link
-[Metro-Ticket-Website]{https://gopesh3652.github.io/jaipur-metro_ticket_bot/}
+[Metro-Ticket-Website](https://gopesh3652.github.io/jaipur-metro_ticket_bot/)
