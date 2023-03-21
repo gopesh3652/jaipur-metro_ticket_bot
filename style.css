@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-us{
+  width: 100%;
+  padding: 90px 0;
+  background: #ddd;
+  display: flex;
+}
+
+.about{
+float: left;
+  width: auto;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text h4{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.carousel-item img{
+    width: 100vw;
+    height: 85vh;
+    
+}
+.img{
+    float: right;
+    
+}
+.img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    float: right;
+}
+.hey{
+    transform: translate(10px, -111px);
+}
+
+.btn[type="button"]{
+    padding: 5px 20px;
+    font-size: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+transition:background 0.4s;
+background:rgb(44, 43, 43) ;
+color: white;
+}
+.btn[type="button"]:hover{
+    background: black;
+color: white;
+}
+.me-2 {
+    margin-top: 10px;
+    margin-left: 0.5rem!important;
+    height: 43%;
+}
+.btn[type="submit"]{
+    bottom: 7px;
+    position: relative;
+}
+@media only screen and (min-width: 360px) and (max-width: 768px)and (min-height:300px)and (max-height:700px){
+.hello,.hey {
+    width: 100%;
+    display: inline;
+    height: 70%;
+ background-repeat: no-repeat;
+  background-size: auto;
+}
+.hello img{
+    height: 60vh;
+
+}
+.hello h3,button{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+}
+}
